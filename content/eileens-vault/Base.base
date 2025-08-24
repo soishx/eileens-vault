@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - publish == true
+        - file.folder == "AP CSA"
+    sort:
+      - property: file.name
+        direction: ASC
