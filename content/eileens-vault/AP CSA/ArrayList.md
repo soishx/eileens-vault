@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-08-24T08:16:43.4343+08:00
-modified: 2025-08-24T10:54:36.3636+08:00
+modified: 2025-08-24T20:12:02.022+08:00
 ---
 ## Properties
 - all elements have to be **reference type**
@@ -25,8 +25,9 @@ valid index: \[0, size - 1\]
 
 ### Comparison of String, Array, and Arraylist
 
-| String    | str.length()                                                       | substring(i, i+1) |
+| Type      | length                                                             | get a part        |
 | --------- | ------------------------------------------------------------------ | ----------------- |
+| String    | str.length()                                                       | substring(i, i+1) |
 | Array     | arr.length<br>(this is an attribute, not a method, so no brackets) | arr\[i\]          |
 | Arraylist | name.size()                                                        | get(i)            |
 
