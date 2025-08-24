@@ -64,7 +64,7 @@ const config: QuartzConfig = {
           light: "catppuccin-latte",
           dark: "catppuccin-frappe",
         },
-        keepBackground: false,
+        keepBackground: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
