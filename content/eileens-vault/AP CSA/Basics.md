@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2024-12-10T18:58:27.2727+08:00
-modified: 2025-08-24T10:20:04.044+08:00
+modified: 2025-08-24T14:00:16.1616+08:00
 ---
 This note summarizes key points you need to know before writing classes.
 ## Variables
@@ -60,7 +60,7 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 
 ### Order of Operation
 
-![Pasted image 20250112182849.png|300](app://44ab087a61579bf9e1f93d754583d6fda648/C:/Users/gxs82/Documents/SFLS_AIP/eileens-vault/Images/Pasted%20image%2020250112182849.png?1736677729467)
+![[Pasted image 20250112182849.png|300]]
 
 ## Boolean Expressions
 ![[Pasted image 20241210190646.png]]
