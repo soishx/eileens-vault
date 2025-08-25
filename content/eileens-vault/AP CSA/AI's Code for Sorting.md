@@ -1,10 +1,10 @@
 ---
 publish: false
 created: 2025-08-24T08:16:43.4343+08:00
-modified: 2025-08-24T10:57:11.1111+08:00
+modified: 2025-08-25T08:44:06.066+08:00
 ---
 ## Selection Sort
-```
+```java
 public static void selectionSort(int[] arr) {
 	int n = arr.length;
 
@@ -28,7 +28,7 @@ public static void selectionSort(int[] arr) {
 ```
 
 ## Insertion Sort
-```
+```java
 public static void insertionSort(int[] arr) {
 	for (int i = 1; i < arr.length; i++) {
 		int current = arr[i];

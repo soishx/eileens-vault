@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2024-12-10T18:58:27.2727+08:00
-modified: 2025-08-24T14:00:16.1616+08:00
+modified: 2025-08-25T08:47:19.1919+08:00
 ---
 This note summarizes key points you need to know before writing classes.
 ## Variables
@@ -12,7 +12,7 @@ This note summarizes key points you need to know before writing classes.
 ### Reference Types
 1. String
 
-==The two types are different: Primitive Types store values, Refrence Types store address (可以理解为快捷方式？==
+==The two types are different: Primitive Types store values, Reference Types store address (可以理解为快捷方式？==
 
 ## String 字符串
 
@@ -20,7 +20,7 @@ sequences of characters: letters, numbers, punctuation, spaces. . .
 
 index: \[0, length-1]
 
-```
+```java
 String name = "Eileen";
 ```
 
@@ -28,7 +28,7 @@ String name = "Eileen";
 - Whenever one of the arguments of the + operator is a string, the other one also becomes a string.
 - ==括号优先，从左往右算，没有遇到String就按正常的加法算==
 
-```
+```java
 System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result should be 30Hello7815
 ```
 
@@ -80,7 +80,7 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 ### 真值表
 ![[Pasted image 20241211205337.png]]
 - **Applying logical operators**
-```
+```java
   int age = 18;
   // if (12 <= age <= 18) // Error
   if (age >=12 && age <= 18) // Correct [12,18]
@@ -91,7 +91,7 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 	- e.g. `false && `
 	- e.g. `true ||`
 	- can be used to **avoid NullPointerException**
-```
+```java
 	  String str = null;
 	  if(str != null && str.length() > 10)
 	  // if(str.length() > 10 && str != null) // you must check null first because if the string itself is null, evaluating "str.length()“ would cause a runtime error
@@ -113,13 +113,13 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 
 ## Wrapper Class
 - Autoboxing: automatic conversions between primitive values and corresponding wrapper objects
-```
+```java
 Integer obj3;
 int num3 = 69;
 obj3 = num3; //automatically creates an Integer object
 ```
 - Unboxing: automatic conversions between wrapper objects and corresponding primitive values
-```
+```java
 Integer obj4 = new Integer(69);
 int num4;
 num4 = obj4; //automatically extracts the int value
@@ -146,7 +146,7 @@ several methods have the ==same method name with different parameter lists==
 - avoid infinite loops
 - the **return statement** inside an iteration statement will **halt the loop** and exit the method or constructor
 
-```
+```java
 while (condition)
 {
     //statements
@@ -155,14 +155,14 @@ while (condition)
 ### For loops
 - 可改写成 while loop, while loop 前需要 declaration
 
-```
+```java
 for (initialization; condition; update)
 {
     //statements
 }
 ```
 - e.g.
-```
+```java
 for (int count = 1; count <= 5; count++)
 {
 	System.out.println (count);
@@ -178,7 +178,7 @@ for (int count = 1; count <= 5; count++)
 
 ## Common Algorithms
 ### Reverse a String
-```
+```java
 public static void main(String[] args) {
 	String str4 = "ap csa";
 	String temp = "";

@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-02-20T15:21:28.2828+08:00
-modified: 2025-08-24T10:06:15.1515+08:00
+modified: 2025-08-25T08:47:57.5757+08:00
 ---
 - for reusing code (复用代码；减少冗余度)
 - It is a relationship between a more general class and a more specialized class
@@ -36,7 +36,7 @@ call a superclass's methods
 - 用于子类构造器，若其中参数与父类构造器参数同名
 - **必须放在子类构造器的第一行**，否则会报错
 - if there's no explicit use of super in a subclass's constructor, Java calls the superclass's **no-argument constructor**; if it doesn't exist --> error
-```
+```java
 \\superclass
 public class Person{
 	private String name;
@@ -68,7 +68,7 @@ public Student{
 ## Polymorphism 多态
 means "having many forms"
 
-```
+```java
 Person obj1 = new Person();
 Person obj2 = new Student();
 \\declared type: Person  actual type: Student

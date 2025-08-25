@@ -1,12 +1,12 @@
 ---
 publish: true
 created: 2025-02-03T16:07:26.2626+08:00
-modified: 2025-08-24T10:17:34.3434+08:00
+modified: 2025-08-25T08:46:09.099+08:00
 ---
 - the size of an array **cannot** be changed once it's created
 
 ## Declaration and Initialization
-```
+```java
    int[] arr = new int[5]; // creates an array of length 5
    int[] arr2 = {1, 2, 3, 4, 5}; // direct initialization
 ```
@@ -15,7 +15,7 @@ modified: 2025-08-24T10:17:34.3434+08:00
 - used for array and arraylist
 - aka enhanced for-loop
 - **只读**，修改的是参数的副本，不影响参数（**这一性质只针对primitive types**, 不针对reference types）
-```
+```java
    for (typeName variableName : arrayName){
 	//statements
    }
@@ -24,7 +24,7 @@ modified: 2025-08-24T10:17:34.3434+08:00
 ## Common Algorithms
 ### Maximum / Minimum
 用maximum举例
-```
+```java
 int largest = values[0]; //initialize
 
 //traverse the string to find max
@@ -37,12 +37,12 @@ for(int i = 1; i < values.length; i++){
 - 其中 line 1 有两种写法
 	1. 一种如上：把初始值定为array里的一个数
 	2. 另一种如下：取Integer class 的最小值 （找minimum时取MAX_VALUE）
-```
+```java
 	   int largest = Integer.MIN_VALUE;
 ```
 
 ### Sum and Average
-```
+```java
 double sum = 0;
 for(int element : values){
 	sum += element;
@@ -55,7 +55,7 @@ if(values.length > 0){
 ```
 
 ### !! Check All Elements
-```
+```java
 for(int element : values){
 	if(element < 60){
 		return false;
@@ -65,7 +65,7 @@ return true;
 ```
 
 ### Count Numbers
-```
+```java
 int count = 0;
 for(int element : values){
 	if(element > 90){
@@ -76,7 +76,7 @@ return count;
 ```
 
 ### !! Reverse Arrays
-```
+```java
 int[] values = {1, 2, 3, 4, 5, 6, 7, 8};
 
 int temp;

@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-02-01T19:36:52.5252+08:00
-modified: 2025-08-24T09:57:34.3434+08:00
+modified: 2025-08-25T08:48:32.3232+08:00
 ---
 ## Objects
 - **Attribute / Field / State**: basic characteristics that define the object
@@ -24,7 +24,7 @@ the blueprint from which an object is created
 	- **constructors**: procedures for constructing a new object of the class and initializing its fields
 	- **methods**: behaviors
 	- e.g.
-```
+```java
    public class Student{
 	   //instance variables
 	   private String name;

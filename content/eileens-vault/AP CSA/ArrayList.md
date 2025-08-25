@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2025-08-24T08:16:43.4343+08:00
-modified: 2025-08-24T20:12:02.022+08:00
+modified: 2025-08-25T08:46:36.3636+08:00
 ---
 ## Properties
 - all elements have to be **reference type**
@@ -12,7 +12,7 @@ modified: 2025-08-24T20:12:02.022+08:00
 - 可以直接打印（array不行）
 ## Declaration
 example:
-```
+```java
 ArrayList<String> names = new ArrayList<String>();
 ```
 
@@ -35,7 +35,7 @@ valid index: \[0, size - 1\]
 ## Common Algorithms
 ### max and min
 - array
-```
+```java
 double largest = values[0];
 for(int i = 1; i < values.length; i++){
 	if(values[i] > largest){
@@ -44,7 +44,7 @@ for(int i = 1; i < values.length; i++){
 }
 ```
 - arraylist
-```
+```java
 double largest = values.get(0);
 for(int i = 1; i < values.size(); i++){
 	if(values.get(i) > largest){
@@ -60,7 +60,7 @@ avoid skipping elements, and there are 3 ways:
 - use while loop cuz the number of loops is not fixed
 - if removed, index doesn't ++ --> check same index (previously at the next index)
 - if not removed, move on (index ++)
-```
+```java
 //remove all strings of length < 4 from an array list
 int i = 0;
 while (i < words.size()){
@@ -75,7 +75,7 @@ while (i < words.size()){
 ```
 2. ==i--==
 - if removed, index --
-```
+```java
 //remove all strings of length < 4 from an array list
 for(int i = 0;i<names.size();i++){
 	String name = names.get(i);
@@ -86,7 +86,7 @@ for(int i = 0;i<names.size();i++){
 }
 ```
 3. ==traverse from end to start==
-```
+```java
 //remove all strings of length < 4 from an array list
 for(int i = names.size() - 1; i >= 0; i--){
 	String name = names.get(i);

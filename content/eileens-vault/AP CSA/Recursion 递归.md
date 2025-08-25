@@ -1,13 +1,13 @@
 ---
 publish: false
 created: 2025-02-22T09:51:10.1010+08:00
-modified: 2025-08-24T10:06:19.1919+08:00
+modified: 2025-08-25T08:48:09.099+08:00
 ---
 A method that calls itself
 
 ## Examples
 ### Fibonacci
-```
+```java
 public static int fibonacci(int n){
 	//base case
 	if(n==1 || n==2){
@@ -23,7 +23,7 @@ public static int fibonacci(int n){
 
 ### Factorial
 #### Recursion
-```
+```java
 public static int factorial(int n){
 	//base case
 	if(n==1){
@@ -38,7 +38,7 @@ public static int factorial(int n){
 ```
 
 #### Loop
-```
+```java
 public static int factorial(int n){
 	int product = 1;
 	for(int i = n;i>=1;i--){

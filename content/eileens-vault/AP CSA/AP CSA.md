@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-05-07T10:44:35.3535+08:00
-modified: 2025-08-24T12:45:38.3838+08:00
+modified: 2025-08-25T08:45:38.3838+08:00
 ---
 - remember that the **instance variable must be used in the conductor** (do NOT create new local variables and assign values)
 - **when calling a method, parentheses must be added** regardless of whether the method has parameters or not)
@@ -10,11 +10,11 @@ modified: 2025-08-24T12:45:38.3838+08:00
 	2. **The method is called on an instance** of that class (e.g., `obj.method()` for instance methods).
 ## String 字符串
 
-sequences of characters: letters, numvers, punctuation, spaces. . .
+sequences of characters: letters, numbers, punctuation, spaces. . .
 
 index: [0, length-1]
 
-```
+```java
 String name = "Eileen";
 ```
 
@@ -22,7 +22,7 @@ String name = "Eileen";
 - Whenever one of the arguments of the + operator is a string, the other one also becomes a string.
 - ==括号优先，从左往右算，没有遇到string就按正常的加法算==
 
-```
+```java
 System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result should be 30Hello7815
 ```
 
@@ -48,7 +48,7 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 
 - Autoboxing: automatic conversions between primitive values and corresponding wrapper objects
 
-```
+```java
 Integer obj3;
 int num3 = 69;
 obj3 = num3; //automatically creates an Integer object
@@ -56,7 +56,7 @@ obj3 = num3; //automatically creates an Integer object
 
 - Unboxing: automatic conversions between wrapper objects and corresponding primitive values
 
-```
+```java
 Integer obj4 = new Integer(69);
 int num4;
 num4 = obj4; //automatically extracts the int value
@@ -81,7 +81,7 @@ several methods have the ==same method name with different parameter lists==
 
 ## Reverse a String
 
-```
+```java
 public static void main(String[] args) {
 	String str4 = "ap csa";
 	String temp = "";
@@ -102,14 +102,14 @@ public static void main(String[] args) {
 - used for array and arraylist
 - aka enhanced for loop
 - **只读**，修改的是参数的副本，不影响参数（**这一性质只针对primitive types**, 不针对reference types）
-```
+```java
 for (typeName variableName : arrayName){
 	//statements
 }
 ```
 - 输出时直接输出variableName
 - 不能输出arr\[x\]
-```
+```java
 for (int x : arr){
 	//statements
 }
@@ -119,7 +119,7 @@ System.out.println(x);
 ## Common Algorithms
 ### Maximum / Minimum
 用maximum举例
-```
+```java
 int largest = values[0]; //initialize
 
 //traverse the string to find max
@@ -132,12 +132,12 @@ for(int i = 1; i < values.length; i++){
 - 其中 line 1 有两种写法
 	1. 一种如上：把初始值定为array里的一个数
 	2. 另一种如下：取Integer class 的最小值 （找minimum时取MAX_VALUE）
-```
+```java
 	   int largest = Integer.MIN_VALUE;
 ```
 
 ### Sum and Average
-```
+```java
 double sum = 0;
 for(int element : values){
 	sum += element;
@@ -150,7 +150,7 @@ if(values.length > 0){
 ```
 
 ### !! Check All Elements
-```
+```java
 for(int element : values){
 	if(element < 60){
 		return false;
@@ -160,7 +160,7 @@ return true;
 ```
 
 ### Count Numbers
-```
+```java
 int count = 0;
 for(int element : values){
 	if(element > 90){
@@ -171,7 +171,7 @@ return count;
 ```
 
 ### !! Reverse Arrays
-```
+```java
 int[] values = {1, 2, 3, 4, 5, 6, 7, 8};
 
 int temp;
@@ -202,7 +202,7 @@ intended to return true if \[condition\], return false otherwise
 - 可以直接打印（array不行）
 ## Declaration
 example:
-```
+```java
 ArrayList<String> names = new ArrayList<String>();
 ```
 
@@ -324,7 +324,7 @@ call a superclass's methods
 - 用于子类构造器，若其中参数与父类构造器参数同名
 - **必须放在子类构造器的第一行**，否则会报错
 - if there's no explicit use of super in a subclass's constructor, Java calls the superclass's **no-argument constructor**; if it doesn't exist --> error
-```
+```java
 \\superclass
 public class Person{
 	private String name;
@@ -356,11 +356,11 @@ public Student{
 ## Polymorphism 多态
 means "having many forms"
 
-```
+```java
 Person obj1 = new Person();
 Person obj2 = new Student();
-\\declared type: Person  actual type: Student
-\\父在前，子在后，可以；反之，不行
+//declared type: Person  actual type: Student
+//父在前，子在后，可以；反之，不行
 ```
 A polymorphic reference can refer to different objects at different times
 - At compile time  
@@ -411,7 +411,7 @@ divides the list in half, recursively sorts the two half lists, and then merges 
 	- e.g. false &&
 	- e.g. true ||
 	- can be used to **avoid NullPointerException**
-```
+```java
 	  String str = null;
 	  if(str != null && str.length() > 10)
 	  // if(str.length() > 10 && str != null) // you must check null first because if the string itself is null, evaluating "str.length()“ would cause a runtime error

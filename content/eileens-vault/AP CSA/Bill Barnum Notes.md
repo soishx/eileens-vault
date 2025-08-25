@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-01-12T18:28:11.1111+08:00
-modified: 2025-08-24T10:04:24.2424+08:00
+modified: 2025-08-25T08:47:30.3030+08:00
 ---
 - We can set a double variable equal to an integer, it will automatically convert into a double. But we **can't** set an integer variable equal to a decimal.
 - **Casting**: e.g. a = (int) 3.99  //cuts everything off after the decimal point
@@ -73,7 +73,7 @@ String g = "howdy";  //SOP is short for System.out.print
 		2. (int)(Math.random()\*10)+1 <= 4
 
 ## Reverse a String
-```
+```java
 public static void main(String[] args) {
 	String str4 = "ap csa";
 	String temp = "";
