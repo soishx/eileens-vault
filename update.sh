@@ -12,7 +12,7 @@ git add .
 git commit -m "$commit_msg"
 
 # 推送到 GitHub
-git push origin main
+git push
 
 # 可选：本地构建并预览
 echo "是否要本地预览？(y/n)"
