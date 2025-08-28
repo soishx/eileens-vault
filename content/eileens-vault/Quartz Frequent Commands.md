@@ -1,7 +1,7 @@
 ---
 publish:
 created: 2025-08-23T22:56:09.099+08:00
-modified: 2025-08-25T09:27:44.4444+08:00
+modified: 2025-08-25T09:56:53.5353+08:00
 ---
 Github sync:
 ```
@@ -41,3 +41,9 @@ git push
 ```powershell
 git clone https://github.com/soishx/eileens-vault.git
 ```
+---
+让 GPT 写了个脚本，以后在 bash 里输入一下命令运行，一键备份发布：
+```bash
+./update.sh
+```
+
