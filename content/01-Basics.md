@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2024-12-10T18:58:27.2727+08:00
-modified: 2025-08-29T11:58:52.5252+08:00
+modified: 2025-08-29T15:48:08.088+08:00
 ---
 This note summarizes key points you need to know before [[05-Writing Classes|writing classes]].
 ## Variables
@@ -91,7 +91,7 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 	- the second boolean value is not reached
 	- e.g. `false && `
 	- e.g. `true ||`
-	- can be used to **avoid NullPointerException**
+	- can be used to **avoid [[Runtime & Compile-time Errors#^b77118|NullPointerException]]**
 ```java
 	  String str = null;
 	  if(str != null && str.length() > 10)
@@ -140,7 +140,7 @@ several methods have the ==same method name with different parameter lists==
 
 ## Iteration 循环
 ### While Loops
-- executes instructions repeatedly while the condition is true
+- executes statements repeatedly while the condition is true
 - avoid infinite loops
 - the **return statement** inside an iteration statement will **halt the loop** and exit the method or constructor
 
@@ -182,6 +182,7 @@ a loop that is declared inside another loop
 2. if () {} else {}
 3. if () {} else if {} else {}
 4. if () {} if () {}
+
 **if statements 中，有 else 代表互斥，if 和 else 不能同时执行; 两个 if 代表并列**
 
 ## Common Algorithms
