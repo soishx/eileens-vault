@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2024-12-10T18:58:27.2727+08:00
-modified: 2025-08-29T10:17:45.4545+08:00
+modified: 2025-08-29T11:58:52.5252+08:00
 ---
 This note summarizes key points you need to know before [[05-Writing Classes|writing classes]].
 ## Variables
@@ -166,6 +166,16 @@ for (int count = 1; count <= 5; count++)
 	System.out.println (count);
 
 ```
+
+### Nested Loop
+
+a loop that is declared inside another loop
+
+- each time the outer loop runs once, the inner loop will go through a complete cycle
+- 计算次数：
+    - for (int i = 30; i < 300; i++)
+    - i: [30, 300) or [30, 299]
+    - 次数：300-30=270 or 299-30+1=270
 
 ## If-statements
 1. if () {}

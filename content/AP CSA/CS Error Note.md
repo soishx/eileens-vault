@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-04-23T19:51:27.2727+08:00
-modified: 2025-08-24T10:04:32.3232+08:00
+modified: 2025-08-29T12:06:59.5959+08:00
 ---
 ## Unit 1
 Consider the following static method:
@@ -160,7 +160,7 @@ Which of the following can replace /* missing condition \*/ so that the pri
 2. borrower != null
 3. borrower.getName() != null
 ![[Pasted image 20250424132731.png]]
-- I and III throw NullPointerException [[Types of Errors|Runtime & Compile-time Errors]]
+- I and III throw NullPointerException [[Runtime & Compile-time Errors|Runtime & Compile-time Errors]]
 
 Consider the following method.
 

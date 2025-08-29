@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-02-23T21:50:51.5151+08:00
-modified: 2025-08-24T11:34:40.4040+08:00
+modified: 2025-08-29T11:55:05.055+08:00
 ---
 **!!! Be careful with the conditions in while loop. Extra caution with adding = to < or >. If the loop is supposed to iterate n times, the condition should be count < n. (count++ for every loop)**
 
@@ -33,7 +33,7 @@ modified: 2025-08-24T11:34:40.4040+08:00
 
 [[02-Array#delete elements|Avoid Skipping Elements]]
 
-[[Types of Errors|Runtime & Compile-time Errors]]
+[[Runtime & Compile-time Errors|Runtime & Compile-time Errors]]
 
 **Unit 1. Primitive Types:** Variables and Data Types, Expressions and Arithmetic Operators, Type Casting, [[01-Basics#String Concatenation|String Concatenation]], [[Bill Barnum Notes#Order of Operation|Operator Precedence]], Assignment and Constants
 

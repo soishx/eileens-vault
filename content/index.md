@@ -2,7 +2,7 @@
 title: Welcome
 publish: true
 created: 2025-08-25T08:52:29.2929+08:00
-modified: 2025-08-29T10:53:38.3838+08:00
+modified: 2025-08-29T11:47:19.1919+08:00
 ---
 
 This website contains Eileen Gao's AP Notes. Navigate across notes using either the explorer or internal links and within notes using the table of contents.
