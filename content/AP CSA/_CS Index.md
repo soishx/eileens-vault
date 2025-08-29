@@ -5,17 +5,17 @@ modified: 2025-08-24T11:34:40.4040+08:00
 ---
 **!!! Be careful with the conditions in while loop. Extra caution with adding = to < or >. If the loop is supposed to iterate n times, the condition should be count < n. (count++ for every loop)**
 
-[[Basics#Method Overloading|Method Overloading]]
+[[01-Basics#Method Overloading|Method Overloading]]
 
 [[CS Error Note#^b04da4|Method Overriding is dynamic]]
 
-[[Array|Array]]
+[[02-Array|02-Array]]
 
-[[Array#ArrayList|ArrayList]]
+[[02-Array#ArrayList|ArrayList]]
 
-[[ArrayList#Comparison of String, Array, and Arraylist|String Array ArrayList 方法对比]]
+[[03-ArrayList#Comparison of String, Array, and Arraylist|String Array ArrayList 方法对比]]
 
-[[Array#Searching|Searching and Sorting]]
+[[02-Array#Searching|Searching and Sorting]]
 
 [[Bill Barnum Notes#Escape Sequence|Escape Sequence]]
 
@@ -29,17 +29,17 @@ modified: 2025-08-24T11:34:40.4040+08:00
 
 [[Unit 1#Errors|Errors]]
 
-[[Basics#Compare Strings|Compare Strings]]
+[[01-Basics#Compare Strings|Compare Strings]]
 
-[[Array#delete elements|Avoid Skipping Elements]]
+[[02-Array#delete elements|Avoid Skipping Elements]]
 
 [[Types of Errors|Runtime & Compile-time Errors]]
 
-**Unit 1. Primitive Types:** Variables and Data Types, Expressions and Arithmetic Operators, Type Casting, [[Basics#String Concatenation|String Concatenation]], [[Bill Barnum Notes#Order of Operation|Operator Precedence]], Assignment and Constants
+**Unit 1. Primitive Types:** Variables and Data Types, Expressions and Arithmetic Operators, Type Casting, [[01-Basics#String Concatenation|String Concatenation]], [[Bill Barnum Notes#Order of Operation|Operator Precedence]], Assignment and Constants
 
-**Unit 2. Using Objects:** Creating Objects, Calling Methods, String Methods (`substring`, `indexOf`, `length`, `equals`, `compareTo`), [[Bill Barnum Notes#Math Class|Math Class]] (`pow`, `sqrt`, `abs`, `random`), [[Basics#Wrapper Class|Wrapper Classes]] (Autoboxing and Unboxing), Object References
+**Unit 2. Using Objects:** Creating Objects, Calling Methods, String Methods (`substring`, `indexOf`, `length`, `equals`, `compareTo`), [[Bill Barnum Notes#Math Class|Math Class]] (`pow`, `sqrt`, `abs`, `random`), [[01-Basics#Wrapper Class|Wrapper Classes]] (Autoboxing and Unboxing), Object References
 
-**Unit 3. Boolean Expressions and If Statements:** Relational Operators, [[Basics#Logical Operators|Logical Operators]], [[Basics#真值表|Truth Tables]], [[Basics#If-statements|If-Else Structures]], Nested Conditionals, [[Basics#^8c5695|Short-Circuit Evaluation]], [[Basics#^1078a2|De Morgan's Laws]]
+**Unit 3. Boolean Expressions and If Statements:** Relational Operators, [[01-Basics#Logical Operators|Logical Operators]], [[01-Basics#真值表|Truth Tables]], [[01-Basics#If-statements|If-Else Structures]], Nested Conditionals, [[01-Basics#^8c5695|Short-Circuit Evaluation]], [[01-Basics#^1078a2|De Morgan's Laws]]
 
 **Unit 4. Iteration:** While Loops, For Loops, Loop Control Variables, Infinite Loops, [[Bill Barnum Notes#Nested Loop|Nested Loops]], Break and Continue, Loop Tracing, Off-By-One Errors
 

@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-05-07T10:44:35.3535+08:00
-modified: 2025-08-25T08:45:38.3838+08:00
+modified: 2025-08-28T22:05:12.1212+08:00
 ---
 - remember that the **instance variable must be used in the conductor** (do NOT create new local variables and assign values)
 - **when calling a method, parentheses must be added** regardless of whether the method has parameters or not)
@@ -28,7 +28,7 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 
 ### Escape Sequences 转义字符序列
 
-![Pasted image 20241116143859.png](app://af988e9c938226f95a61e63d91c2c18f463c/C:/Users/gxs82/Documents/%E6%B7%B1%E5%A4%96%E5%9B%BD%E9%99%85%E4%B9%A6%E9%99%A2/Eileen's%20Vault/Images/Pasted%20image%2020241116143859.png?1731739139518)
+![[Pasted image 20241116143859.png]](app://af988e9c938226f95a61e63d91c2c18f463c/C:/Users/gxs82/Documents/%E6%B7%B1%E5%A4%96%E5%9B%BD%E9%99%85%E4%B9%A6%E9%99%A2/Eileen's%20Vault/Images/Pasted%20image%2020241116143859.png?1731739139518)
 
 ### Compare Strings
 
@@ -38,7 +38,7 @@ System.out.println(7 + 8 + (7 + 8) + "Hello" + 7 + 8 + (7 + 8))  //the result sh
 ### String Concatenation
 
 - substring 方法的范围截止到endIndex - 1
-- ![Pasted image 20250420145938.png](app://af988e9c938226f95a61e63d91c2c18f463c/C:/Users/gxs82/Documents/%E6%B7%B1%E5%A4%96%E5%9B%BD%E9%99%85%E4%B9%A6%E9%99%A2/Eileen's%20Vault/Images/Pasted%20image%2020250420145938.png?1745132378377)
+- ![[Pasted image 20250420145938.png]](app://af988e9c938226f95a61e63d91c2c18f463c/C:/Users/gxs82/Documents/%E6%B7%B1%E5%A4%96%E5%9B%BD%E9%99%85%E4%B9%A6%E9%99%A2/Eileen's%20Vault/Images/Pasted%20image%2020250420145938.png?1745132378377)
 
 ## Math Class
 
