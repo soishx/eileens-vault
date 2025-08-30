@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FFF2E0",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8ff",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#9882eb",
-          tertiary: "#A2AADB",
-          highlight: "rgba(137, 138, 196, 0.3)",
-          textHighlight: "#C0C9EE",
+          light: "#FAF7F5",          // warm off-white background
+          lightgray: "#E0E0E0",      // subtle borders
+          gray: "#9E9E9E",           // graph lines
+          darkgray: "#444444",       // body text
+          dark: "#1E1E1E",           // headers/icons
+          secondary: "#9A77E8",      // main accent purple (links, graph nodes)
+          tertiary: "#F28B82",       // contrasting coral/red-orange for hover
+          highlight: "rgba(154, 119, 232, 0.15)", // purple-tinted highlight
+          textHighlight: "#FFF59D"   // soft butter yellow background for inline highlights
         },
         darkMode: {
-          light: "#3F3B6C",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#A3C7D6",
-          tertiary: "#624F82",
-          highlight: "rgba(159, 115, 171, 0.3)",
-          textHighlight: "#b3aa0288",
+          light: "#2A2438",          // deep indigo background
+          lightgray: "#3E3A4B",      // borders
+          gray: "#6C6C6C",           // graph lines
+          darkgray: "#E0E0E0",       // body text
+          dark: "#FAFAFA",           // headers/icons
+          secondary: "#B39DDB",      // lighter purple accent
+          tertiary: "#FFB74D",       // warm golden orange for contrast
+          highlight: "rgba(255, 183, 77, 0.15)",  // orange-gold translucent highlight
+          textHighlight: "#9CCC65AA" // lime green translucent, stands out from purple bg
         },
       },
     },

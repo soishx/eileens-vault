@@ -1,7 +1,7 @@
 ---
 publish:
 created: 2025-08-23T22:56:09.099+08:00
-modified: 2025-08-28T22:17:14.1414+08:00
+modified: 2025-08-30T09:42:17.1717+08:00
 ---
 Github sync:
 ```
@@ -46,4 +46,60 @@ git clone https://github.com/soishx/eileens-vault.git
 ```bash
 ./update.sh
 ```
+
+## Theme
+ChatGPT-refined:
+
+```ts
+      colors: {
+
+        lightMode: {
+
+          light: "#FFF2E0",
+
+          lightgray: "#E5E5E5",
+
+          gray: "#B8B8B8",
+
+          darkgray: "#4E4E4E",
+
+          dark: "#2B2B2B",
+
+          secondary: "#8B6FE8",
+
+          tertiary: "#A2AADB",
+
+          highlight: "rgba(139, 111, 232, 0.25)",
+
+          textHighlight: "#D7E0FF",
+
+        },
+
+        darkMode: {
+
+          light: "#2E2B50",
+
+          lightgray: "#4A4759",
+
+          gray: "#767676",
+
+          darkgray: "#D4D4D4",
+
+          dark: "#FFFFFF",
+
+          secondary: "#A3C7D6",
+
+          tertiary: "#7B5FA9",
+
+          highlight: "rgba(163, 199, 214, 0.25)",
+
+          textHighlight: "#D0B3FF",
+
+        },
+
+      },
+
+```
+
+ChatGPT designed:
 
