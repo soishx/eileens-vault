@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2025-02-15T16:35:01.011+08:00
-modified: 2025-08-25T08:43:49.4949+08:00
+modified: 2025-09-04T14:35:01.011+08:00
 ---
 ## Declaration and Initialization
 ```java
-int[][] values = new int[3][4]; \\顺序是[行][列]
+int[][] values = new int[3][4]; //顺序是[行][列]
 int[][] values = {{5,8,7,2},{0,1,-1,-3}{1,3,0,2}};
 ```
 
