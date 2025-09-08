@@ -1,7 +1,7 @@
 ---
-publish:
+publish: false
 created: 2025-08-23T22:56:09.099+08:00
-modified: 2025-08-30T09:42:17.1717+08:00
+modified: 2025-09-08T07:59:46.4646+08:00
 ---
 Github sync:
 ```
@@ -102,4 +102,16 @@ ChatGPT-refined:
 ```
 
 ChatGPT designed:
+
+
+---
+```bash
+rm -rf static/pdfs
+git rm -r --cached static/pdfs
+echo "static/pdfs/" >> .gitignore
+git add .gitignore
+git commit -m "Ignore local PDFs, keep remote copies"
+git push origin v4
+
+```
 

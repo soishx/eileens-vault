@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-02-23T21:50:51.5151+08:00
-modified: 2025-08-29T11:55:05.055+08:00
+modified: 2025-09-08T08:00:18.1818+08:00
 ---
 **!!! Be careful with the conditions in while loop. Extra caution with adding = to < or >. If the loop is supposed to iterate n times, the condition should be count < n. (count++ for every loop)**
 

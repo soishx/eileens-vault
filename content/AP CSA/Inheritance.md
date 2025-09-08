@@ -1,7 +1,7 @@
 ---
 publish: false
 created: 2025-02-20T15:21:28.2828+08:00
-modified: 2025-08-25T08:47:57.5757+08:00
+modified: 2025-09-08T08:02:44.4444+08:00
 ---
 - for reusing code (复用代码；减少冗余度)
 - It is a relationship between a more general class and a more specialized class
@@ -37,25 +37,25 @@ call a superclass's methods
 - **必须放在子类构造器的第一行**，否则会报错
 - if there's no explicit use of super in a subclass's constructor, Java calls the superclass's **no-argument constructor**; if it doesn't exist --> error
 ```java
-\\superclass
+//superclass
 public class Person{
 	private String name;
 	private int age;
 	
-	\\constructor
+	//constructor
 	public Person(String name, int age){
 		this.name = name;
 		this.age = age;
 	}
 }
 
-\\subclass
+//subclass
 public Student{
 	private double gpa;
 	
-	\\constructor
+	//constructor
 	public Student(String name, int age, double gpa){
-		super(name,age); \\代表把name,age传入了父类构造器
+		super(name,age); //代表把name,age传入了父类构造器
 		this,gpa = gpa;
 	}
 }
@@ -71,8 +71,8 @@ means "having many forms"
 ```java
 Person obj1 = new Person();
 Person obj2 = new Student();
-\\declared type: Person  actual type: Student
-\\父在前，子在后，可以；反之，不行
+//declared type: Person  actual type: Student
+//父在前，子在后，可以；反之，不行
 ```
 A polymorphic reference can refer to different objects at different times
 - At compile time  
